@@ -53,7 +53,7 @@ def total_gross(source)
   pp directorlist
   pp directorgross
   while counter1 < directorlist.size do
-    total +=  directorgross[directorlist(counter1)]
+    total +=  directorgross[directorlist[counter1]]
     counter1 += 1
   end
   total
