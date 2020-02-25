@@ -51,7 +51,7 @@ def total_gross(source)
   directorlist = list_of_directors(source)
   while counter1 < directorlist.size do
     directorgross = directors_totals(source)
-    total +=  directorgross[list_of_directors(counter1)]
+    total +=  directorgross[directorlist(counter1)]
     counter1 += 1
   end
   total
